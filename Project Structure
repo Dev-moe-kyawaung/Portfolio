@@ -1,0 +1,51 @@
+app/
+├── src/main/java/com/moekyawaung/portfolio/
+│   ├── MainActivity.kt                 # App entry point
+│   │
+│   ├── ui/
+│   │   ├── screens/
+│   │   │   ├── HomeScreen.kt           # Main home screen
+│   │   │   ├── AboutScreen.kt          # About developer info
+│   │   │   ├── ProjectsScreen.kt       # Project showcase
+│   │   │   └── ContactScreen.kt        # Contact form
+│   │   │
+│   │   ├── components/
+│   │   │   ├── HeroSection.kt          # Hero with name & tagline
+│   │   │   ├── StatsCounter.kt         # Animated stats
+│   │   │   ├── SkillProgressBar.kt     # Skill percentages
+│   │   │   └── ProjectCard.kt          # Project card component
+│   │   │
+│   │   └── theme/
+│   │       ├── Color.kt                # Neon color palette
+│   │       ├── Theme.kt                # Dark/Light theme
+│   │       └── Typography.kt           # Font styles
+│   │
+│   ├── data/
+│   │   ├── model/
+│   │   │   ├── Project.kt              # Project data model
+│   │   │   ├── Skill.kt                # Skill data model
+│   │   │   └── Certificate.kt          # Certificate data model
+│   │   │
+│   │   ├── repository/
+│   │   │   └── PortfolioRepository.kt  # Data repository
+│   │   │
+│   │   └── local/
+│   │       └── PortfolioDatabase.kt    # Room Database
+│   │
+│   ├── viewModel/
+│   │   ├── HomeViewModel.kt            # Home screen ViewModel
+│   │   ├── ProjectsViewModel.kt        # Projects ViewModel
+│   │   └── ContactViewModel.kt         # Contact ViewModel
+│   │
+│   └── util/
+│       ├── Constants.kt                # App constants
+│       └── Extensions.kt               # Kotlin extensions
+│
+├── res/
+│   ├── drawable/                       # Image resources
+│   ├── fonts/                          # Custom fonts
+│   └── values/
+│       ├── colors.xml                  # XML colors
+│       └── strings.xml                 # App strings
+│
+└── build.gradle.kts                    # App build config
